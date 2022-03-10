@@ -1,8 +1,20 @@
-# androaidProject
-<h2>LA RESURANTA<h2>
-Menu!
+# LA RESURANTA - Android Order App!
 
-
+Photos
+  
+run the backend server:
+  
+  1. change the the ip address index.js on this line:
+  
+        .then(result => {app.listen('3000', "{YOUR_LOCAL_IP}"); })
+  
+  2. change the ip on Menu and MainActivity classes 
+ example:  String url = "http://192.168.9.2:3000/order/add-meals";
+ 
+ 
+ 
+  
+  
 ![image](https://user-images.githubusercontent.com/48179479/157681228-8df15ff8-6c94-467e-a423-a18c867ee064.png)
 
 
