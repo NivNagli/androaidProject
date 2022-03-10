@@ -1,6 +1,6 @@
 # LA RESURANTA - Android Order App!
 
-<h1>Photos<h1>
+Photos
   
 run the backend server:
   
