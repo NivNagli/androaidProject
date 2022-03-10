@@ -34,6 +34,6 @@ app.use((error, req, res, next) => {
       `mongodb+srv://androaidProject:Hayot123@androaidproject.oluz4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`
     )
     .then(result => {
-      app.listen('8080', "192.168.9.11");
+      app.listen('3000', "192.168.9.2");
     })
     .catch(err => console.log(err));

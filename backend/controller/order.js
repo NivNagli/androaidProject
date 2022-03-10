@@ -175,6 +175,9 @@ exports.addMeals = async (req, res, next) => {
     existingUser.updateNumOfOrders();
     await existingUser.save();
     const bonus = existingUser.numberOfOrders % 10 === 0 && existingUser.numberOfOrders !== 0;
+    // for(m of existingMeals) { 
+    //     await m.then(res => {});
+    // }
 
     console.log("Meals Added");
     res
