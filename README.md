@@ -1,8 +1,7 @@
-# androaidProject
-<h2>LA RESURANTA<h2>
-Menu!
+# LA RESURANTA - Android Order App!
 
-
+<h1>LA RESURANTA<h1>
+  
 ![image](https://user-images.githubusercontent.com/48179479/157681228-8df15ff8-6c94-467e-a423-a18c867ee064.png)
 
 
