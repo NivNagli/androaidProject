@@ -6,7 +6,7 @@ run the backend server:
   
   1. change the the ip address index.js on this line:
   
-        .then(result => {app.listen('3000', "{YOUR_LOCAL_IP}"); })
+       <code>.then(result => {app.listen('3000', "{YOUR_LOCAL_IP}"); })</code>
   
   2. change the ip on Menu and MainActivity classes 
  example:  String url = "http://192.168.9.2:3000/order/add-meals";
