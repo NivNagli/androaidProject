@@ -1,7 +1,7 @@
 # LA RESURANTA - Android Order App!
 
   
-<h1>How to run the backend server:</h1>
+<h2>How to run the backend server:</h2>
   
   1. Change the the ip address ./backend/index.js in this line:<br>
        <code>.then(result => {app.listen('3000', "{YOUR_LOCAL_IP}"); })</code>
