@@ -67,9 +67,9 @@ public class MainActivity extends AppCompatActivity {
         JSONObject parameters = new JSONObject(params);
         String url;
         if (action.equals("Sign up"))
-            url = "http://192.168.9.2:3000/user/signup";
+            url = "https://androidapitelhai.herokuapp.com/user/signup";
         else
-            url = "http://192.168.9.2:3000/user/login";
+            url = "https://androidapitelhai.herokuapp.com/user/login";
         JsonObjectRequest jsonRequest = new JsonObjectRequest(Request.Method.POST, url, parameters, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {

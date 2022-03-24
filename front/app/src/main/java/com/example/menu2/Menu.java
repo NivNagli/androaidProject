@@ -74,7 +74,7 @@ public class Menu extends AppCompatActivity {
             if (orderOk) {
                 items.put("email", email);
                 JSONObject parameters = new JSONObject(items);
-                String url = "http://192.168.9.2:3000/order/add-meals";
+                String url = "https://androidapitelhai.herokuapp.com/order/add-meals";
                 JsonObjectRequest jsonRequest = new JsonObjectRequest(Request.Method.POST, url, parameters, new Response.Listener<JSONObject>() {
                     @Override
                     public void onResponse(JSONObject response) {
